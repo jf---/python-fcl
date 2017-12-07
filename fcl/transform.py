@@ -60,7 +60,7 @@ def quaternion_to_axisangle(quat):
     sqr_length = sum(np.square(data[1:]))
     axis = np.zeros(3)
     if sqr_length > 0:
-        angle = 2.0 * np.acos(data[0])
+        angle = 2.0 * np.arccos(data[0])
         inv_length = 1.0 / np.sqrt(sqr_length)
         axis = inv_length * data[1:]
     else:
