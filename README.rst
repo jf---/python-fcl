@@ -1,3 +1,9 @@
+
+This fork has been superceded by `BerkeleyAutomation
+<https://github.com/BerkeleyAutomation/python-fcl/>`_ branch.
+
+
+
 python-fcl
 =========
 
